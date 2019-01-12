@@ -5,7 +5,7 @@ import util.Problem;
 public class Problem_1032 implements Problem {
 	
 	/*
-	 * 1032 ¸í·ÉÇÁ·ÒÇÁÆ® (https://www.acmicpc.net/problem/1032)
+	 * 1032 ëª…ë ¹í”„ë¡¬í”„íŠ¸ ((https://www.acmicpc.net/problem/1032)
 	 */
 	
 	public static void main(String[] args) {
