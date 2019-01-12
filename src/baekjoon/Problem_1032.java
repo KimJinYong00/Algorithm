@@ -3,6 +3,11 @@ package baekjoon;
 import util.Problem;
 
 public class Problem_1032 implements Problem {
+	
+	/*
+	 * 1032 명령프롬프트 (https://www.acmicpc.net/problem/1032)
+	 */
+	
 	public static void main(String[] args) {
 		Problem_1032 problem = new Problem_1032();
 		
