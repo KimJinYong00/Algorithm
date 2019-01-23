@@ -10,7 +10,7 @@ import util.Problem;
 public class Problem_14729 implements Problem {
 	
 	/*
-	 * 14792 Ä¥¹«ÇØ (https://www.acmicpc.net/problem/14729)
+	 * 14792 ì¹ ë¬´í•´ (https://www.acmicpc.net/problem/14729)
 	 */
 	
 	public static void main(String args[]) {
