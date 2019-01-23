@@ -1,5 +1,7 @@
 package baekjoon;
 
+import java.util.Scanner;
+
 import util.Problem;
 
 public class Problem_1032 implements Problem {
@@ -17,20 +19,21 @@ public class Problem_1032 implements Problem {
 
 	@Override
 	public void solve() {
-		int N = scanner.nextInt();
+		Scanner scan = new Scanner(System.in);
+		int N = scan.nextInt();
 		String[] strArr = new String[N];
 		
 		String pattern = "";
 		
 		for(int i = 0; i < N; i++) {
-			strArr[i] = scanner.next();
+			strArr[i] = scan.next();
 			
 			if(i == 0)
 				pattern = strArr[i];
 			else
 				pattern = compareString(pattern, strArr[i]);
 		}
-		
+		scan.close();
 		System.out.println(pattern);
 	}
 	
